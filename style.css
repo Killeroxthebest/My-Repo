@@ -1,0 +1,42 @@
+body {
+        font-family: 'Tiny5', serif;
+        font-weight: 200;
+        font-size: 24px;
+      }
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.section-title {
+    font-size: 36px;
+    background-image: url('https://pbs.twimg.com/media/EE7_84fW4AsCGze.png');
+    border: 2px solid #000000;
+    padding-bottom: 200px;
+    text-align: center;
+    background-size: cover;
+    margin: 20px;
+}
+.section-nav {
+    text-align: center;
+    padding: 20px;
+    object-fit: cover;
+    background-image: url(https://pixeljoint.com/files/icons/full/horseshoecrab.png);
+    gap: 20px;
+    border: 2px solid #000000;
+    margin: 20px;
+}
+h1 {
+    font-size: 36px;
+    margin: 40px 0;
+    background-color: Darkorange;
+    padding: 5px;
+    border: 2px solid #000000;
+}
+h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    background-color: Darkorange;
+    padding: 10px;
+    border: 2px solid #000000;
+}

@@ -30,6 +30,17 @@ body {
     margin: 20px;
 }
 
+.section-intro {
+    text-align: center;
+    padding: 20px;
+    object-fit: cover;
+    /* creator is https://www.pixilart.com/racton */
+    background-image: url(https://art.pixilart.com/2d7addf665cb4b2.png);
+    gap: 20px;
+    border: 2px solid #000000;
+    margin: 20px;
+}
+
 h1 {
     font-size: 36px;
     margin: 40px 20px;
@@ -62,9 +73,15 @@ a {
 }
 
 a:hover {
-    color: darkorange;
+    color: rgb(123, 68, 1);
+}
+img {
+    max-width: 100px;
 }
 
-a:visited {
-    color: purple;
-}
+/* .section-img{ */
+    
+/* } */
+/* a:visited { */
+/* color: purple; */
+/* } */

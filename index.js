@@ -30,3 +30,26 @@ button2.addEventListener('click', function () {
     }
     carImage.src = images[imageNum]
 });
+
+
+let currentProject = document.querySelector(".projects");
+let button3 = document.querySelector(".option-three");
+let button4 = document.querySelector(".option-four");
+let projects = ["ChangeProject/int-u2-project-starter-code-2-1/index.html",
+    "BeeProject/int-u3-project-starter-code/Beeclicker.html",
+    "PlaylistProject/flw1-playlist-22-23-starter/index.html"]
+let projectNum = 0;
+button3.addEventListener('click', function () {
+    projectNum = projectNum - 1;
+    if (projectNum < 0) {
+        projectNum = 3
+    }
+    carImage.src = projects[projectNum]
+});
+button4.addEventListener('click', function () {
+    projectNum = projectNum + 1
+    if (projectNum > 3) {
+        projectNum = 0
+    }
+    carImage.src = projects[projectNum]
+});

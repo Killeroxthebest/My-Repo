@@ -21,7 +21,9 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+p{
+    font-size: 1.0em;
+}
 .tiny5-regular {
     font-family: "Tiny5", sans-serif;
     font-weight: 200;
@@ -82,7 +84,21 @@ body {
     border: 2px solid #000000;
     margin: 20px;
 }
-
+.projects{
+    width:1024px; /*CHANGE DEPENDING ON WHICH WIDTH MODE ITS ON*/
+    height: 1024px;
+} 
+.section-one{
+    text-align: center;
+    padding: 20px;
+    object-fit: cover;
+    /* creator is https://www.pixilart.com/racton */
+   background-image: url(https://art.pixilart.com/2d7addf665cb4b2.png);
+    gap: 20px;
+    border: 2px solid #000000;
+    margin: 20px;
+    margin: -25px;
+}
 h1 {
     font-size: 36px;
     margin: 40px 20px;

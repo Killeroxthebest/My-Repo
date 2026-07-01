@@ -5,9 +5,9 @@ let button3 = document.querySelector(".option-three");
 let button4 = document.querySelector(".option-four");
 
 let projects = [
-    "ChangeProject/int-u2-project-starter-code-2-1/index.html",
-    "BeeProject/int-u3-project-starter-code/index.html",
-    "PlaylistProject/flw1-playlist-22-23-starter/index.html"
+    "https://killeroxthebest.github.io/int-u2-project-starter-code-2/",
+    "https://killeroxthebest.github.io/int-u3-project-starter-code/",
+    "https://killeroxthebest.github.io/flw1-playlist-22-23-starter/"
 ];
 
 let projectNum = 0;

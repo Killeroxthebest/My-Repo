@@ -8,6 +8,13 @@
         font-size: 1.25em;
     }
 
+    iframe.mPlayer {
+        margin: 150px;
+        margin-left: 950px;
+        position: fixed;
+        z-index: 9999px;
+    }
+
     .section-two,
     body {
         margin: 0 auto;
@@ -91,6 +98,9 @@
         height: 1024px;
     }
 
+abbr{
+    font-size:40px;
+}
     .section-one {
         text-align: center;
         padding: 20px;
@@ -118,6 +128,7 @@
         padding: 10px;
         border: 2px solid #000000;
     }
+
 
 
     .animation-box:hover {
@@ -176,6 +187,11 @@
     /* } */
 }
 
+        iframe.mPlayer {
+           
+            z-index: 9999;
+     
+        }
 
 /* Tablet and phone  */
 @media(max-width:1024px) and (min-width:0px) {
@@ -235,6 +251,17 @@
         margin: 100px;
         z-index: 9999;
         margin-left: 25px;
+    }
+
+    iframe.mPlayer {
+        font-size: 15px;
+        position: fixed;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+        margin: 225px;
+        z-index: 9999;
+        margin-left: -50px;
     }
 
     .bnav img {
@@ -403,6 +430,17 @@
             margin: 20px;
         }
 
+        iframe.mPlayer {
+            font-size: 15px;
+            position: fixed;
+            text-align: center;
+            padding: 20px;
+            gap: 20px;
+            margin: -210px;
+            z-index: 9999;
+            margin-left: 270px;
+        }
+
         .bnav {
             height: 85px;
             font-size: .5em;
@@ -529,5 +567,6 @@
         iframe.projects {
             width: 600px;
         }
+
     }
 }
